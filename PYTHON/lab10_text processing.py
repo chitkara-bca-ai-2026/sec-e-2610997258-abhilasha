@@ -1,0 +1,23 @@
+# Lab 10 - Text Processing Tool
+
+print("==========================================")
+print("         TEXT PROCESSING TOOL             ")
+print("==========================================")
+sentence = input("Enter a sentence: ")
+print("\n--- Processing Results ---")
+index_pos = int(input("Enter position for indexing: "))
+print(f"Character at position {index_pos} : {sentence[index_pos]}")
+start_idx = int(input("Enter start index for slicing : "))
+end_idx = int(input("Enter end index for slicing     : "))
+print(f"Sliced string [{start_idx}:{end_idx}] : '{sentence[start_idx:end_idx]}'")
+print(f"Uppercase\t\t\t : {sentence.upper()}")
+print(f"Lowercase\t\t\t : {sentence.lower()}")
+target_word = input("Enter word to replace \t\t : ")
+replacement_word = input("Enter replacement word \t\t : ")
+modified_sentence = sentence.replace(target_word, replacement_word)
+print(f"After replace\t\t\t : {modified_sentence}")
+print(f"Length of sentence\t\t : {len(sentence)}")
+
+print("\n==========================================")
+print("             Analysis Complete!           ")
+print("==========================================")
