@@ -1,0 +1,4 @@
+Artificial intelligence is transforming modern industries.
+Python provides powerful libraries for text processing and data analysis.
+Developers use file handling to store and retrieve important records.
+Modular programming makes code clean, reusable, and easy to maintain.
